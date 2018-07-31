@@ -1,0 +1,115 @@
+/* I tried the 3 given font families, but the curly g, 
+tells me its the current one in use. I also don't see the use of the
+2 other given yellow colors. */
+
+/* I used the id solution, because of the fact only a ol was to be used.
+This is an example with use of a paragraph inside the il list.
+*/
+
+body {
+    color: white;
+    background-color: #2cc0ac;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-top: darkcyan solid 5px;
+    margin-top: 0px;
+    min-width: 730px;
+}
+
+h1 {
+    background-color: #ffcc00;
+    width: 65%;
+    float: left;
+    text-align: left;
+    padding-left: 0.25em;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    position: absolute;
+/*     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+/*     font-family: Arial, Helvetica, sans-serif; */
+/*     font-family: 'Courier New', Courier, monospace; */
+}
+
+
+h2 {
+    background-color: #ffcc00;
+    width: 65%;
+    float: right;
+    text-align: right;
+    margin-top: 21.5px;
+    padding-right: 0.75em;
+    padding-top: 38px;
+    padding-bottom: 41px;
+    position: relative;
+}
+
+ol {
+    clear: both;
+    list-style-type: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 31.5%;
+    position: absolute;
+    min-width: 595px;
+}
+
+#navigation {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 21.5%;
+    margin-top: 140px;
+}
+
+#navigation li {
+    padding-left: 15px;
+    float: right;
+}
+
+ol.paragraph-text {
+    background-color: lightgray;
+}
+
+ol.paragraph-text li {
+    background-color: #ff4800;
+    float: left;
+    padding-top: 0px;
+    padding-left: 7.5px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    width: 230px;
+    height: 145px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+ol.paragraph-text li.left {
+    margin-right: 30px;
+}
+
+ol.paragraph-text li.right {
+    margin-left: 30px;
+}
+
+#paragraph-text-top {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-top: 230px;
+}
+
+#paragraph-text-top li {
+    border-top: #b43300 solid 1px;
+}
+
+#paragraph-text-bottom {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-top: 425px;
+}
+
+#paragraph-text-bottom li {
+    border-bottom: #b43300 solid 1px;
+}
+
+p {
+    clear: both;
+}

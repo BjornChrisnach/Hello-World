@@ -1,0 +1,15 @@
+/* This would affect the style of all link tags on the page */
+a {
+    /* style for a tags */
+}
+   
+/*
+   This would affect the style of all paragraph tags on the page and the style of elements contained within the paragraph tag */
+p {
+    /* style for p tags */
+}
+   
+/*This would apply style to the body tag as well as allow the elements inside the body tag to inherit certain styles applied here*/
+body {
+    /* style for all elements in the body */
+}
